@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* not sure which one to use column or row */
+    justify-content: center;
+    background-color: white;
+    border-radius: 18px;
+    width: min-content; /* WOAH! */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) ;
+    /* margin-left: 27px;
+    margin-right: 27px; */
+}
+
+.card img {
+    height: 288px;
+    width: 288px;
+    border-radius: 10px;
+    margin: 16px;
+}
+
+.card h1 {
+    font-family: Outfit, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.11px;
+    max-width: 252px;
+    margin-top: 6px; /* Actual value 6px */
+    margin-right: 34px;
+    margin-left: 34px;
+    margin-bottom: 16px;
+}
+/* No need to group h1 and p together just to use the property font family once. */
+.card p {
+    font-family: Outfit, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0.15px;
+    max-width: 247px;
+    text-align: center;
+    margin-right: 36px;
+    margin-left: 36px;
+    margin-bottom: 40px; /* Actual value 41px */
+}
+
+/* My questions so far */
+/* How do I use rems and ems? I mean how do you know if an element's size is 0.9 rems or ems? */
+/* How do I add the shadows */

@@ -39,13 +39,13 @@
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.11px;
-    max-width: 252px;
+    max-width: 254px; /* actual value 252px, I changed it to so the h1 element takes 2 lines instead of 3 in firefox */
     margin-top: 6px; /* Actual value 6px */
-    margin-right: 34px;
-    margin-left: 34px;
+    margin-right: 33px; /* Actaul value 33px, I changed it to so the h1 element takes 2 lines instead of 3 in firefox */
+    margin-left: 33px;
     margin-bottom: 16px;
     color: hsl(218, 44%, 22%);
-    text-align: center; 
+    text-align: center;
 }
 /* No need to group h1 and p together just to use the property font family once. */
 .card p {

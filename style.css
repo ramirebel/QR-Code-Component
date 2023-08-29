@@ -44,6 +44,7 @@
     margin-right: 34px;
     margin-left: 34px;
     margin-bottom: 16px;
+    color: hsl(218, 44%, 22%);
 }
 /* No need to group h1 and p together just to use the property font family once. */
 .card p {
